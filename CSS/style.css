@@ -1,0 +1,1243 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@font-face {
+  font-family: Lucida Bright;
+  src: url("/Fonts/LBRITE.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Dosis", serif;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+/* Nav CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+.navLinks {
+  max-width: 638px;
+  width: 100%;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+  color: #2e0f1c;
+}
+h1 span {
+  color: #9b315d;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.navLinks ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.navLinks ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navLinks ul li.active a,
+.navLinks ul li a i {
+  color: #9b315d;
+  /* background: #9b315d;  */
+  border-radius: 5px;
+}
+/* Banner CSS */
+.banner {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/Images/Banner\ img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+h2 {
+  font-size: 62px;
+  font-family: Lucida Bright;
+  font-weight: 600;
+  color: #2e0f1c;
+}
+h2 span {
+  background-color: #ef77aa;
+  color: #fff;
+}
+#p2 {
+  font-size: 32px;
+  color: #9b315d;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+#Bpara {
+  font-size: 18px;
+  max-width: 464px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.bannerContent button {
+  width: 113px;
+  height: 36px;
+  border: 2px solid #9b315d;
+  color: #9b315d;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+/* bar icon css */
+
+/* bar icon css end */
+/* PhiloSophy Css || Yoga Begin CSS || Methodology CSS */
+.philosophy,
+.yogaBegin,
+.methodology {
+  padding-top: 104px;
+}
+.phyDiv,
+.yogaBeginDiv,
+.methodDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.phyText,
+.yogaText,
+.methodText {
+  max-width: 605px;
+  width: 100%;
+}
+.phyText p,
+.yogaText p,
+.methodText p {
+  font-size: 22px;
+  margin-top: 3rem;
+  color: #3d3b3c;
+}
+.phyText button,
+.yogaText button,
+.methodText button {
+  width: 130px;
+  height: 42px;
+  border: 2px solid #9b315d;
+  color: #9b315d;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  /* display: block; */
+  margin: 1.5rem auto 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.phyImage img,
+/* .yogaImage img, */
+.methodImage img {
+  max-width: 100%;
+}
+/*feature Css */
+.features {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #f9f9f9; /* হালকা ব্যাকগ্রাউন্ড */
+}
+
+.featureDiv {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.featureCard {
+  height: auto;
+  max-width: 360px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:first-child,
+.featureCard:last-child {
+  /* border: 1px solid #ddd; */
+  background: #fff;
+}
+
+.featureCard:nth-child(2) {
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.featureCard img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 50%;
+  /* border: 4px solid #9b315d; */
+  padding: 5px;
+}
+
+.featureCard h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  color: #2e0f1c;
+  margin-top: 1.5rem;
+}
+
+.featureCard h3 span {
+  color: #9b315d;
+}
+
+.featureCard p {
+  font-size: 16px;
+  color: #3d3b3c;
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.featureCard button {
+  width: 130px;
+  height: 42px;
+  border: 2px solid #9b315d;
+  color: #9b315d;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  margin: 1.5rem auto 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.featureCard button:hover {
+  background: #9b315d;
+  color: white;
+}
+/*yoga css starta  */
+.yogaImage {
+  position: relative;
+  display: inline-block;
+}
+
+.yogaImage::before {
+  content: "";
+  position: absolute;
+  top: 20px; /* উপরে কিছুটা জায়গা */
+  left: 180px; /* বাঁ দিকে কিছুটা জায়গা */
+  width: 60%;
+  height: 75%;
+  background: url("../Images/yogabigin\ bg.png") no-repeat center center/cover;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.3;
+}
+.yogaText h2 {
+  width: 150%;
+  margin-top: 25px;
+  /* margin-left: 15px; */
+}
+/*yoga css end  */
+
+/* Slider CSS */
+.slider {
+  padding-top: 140px;
+}
+.slideDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.slideText p {
+  font-size: 27px;
+  font-style: italic;
+  max-width: 443px;
+  word-spacing: 1px;
+  align-items: center;
+}
+.slideImage img {
+  max-width: 100%;
+}
+.slideLeft,
+.slideRight {
+  width: 60px;
+  height: 60px;
+  background-color: #9b315d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Register Css */
+.regDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.regText {
+  width: 100%;
+  text-align: center;
+}
+.regText h2 {
+  background-color: #ef77aa;
+  color: #fff;
+  display: inline-block;
+}
+#regp1 {
+  font-size: 42px;
+  color: #2e0f1c;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+#regp2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #2e0f1c;
+  margin-top: 1rem;
+}
+.regText button {
+  width: 155px;
+  height: 42px;
+  border: 2px solid #9b315d;
+  color: #9b315d;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.regImage {
+  max-width: 620px;
+  width: 100%;
+}
+.regImage img {
+  width: 100%;
+  height: auto;
+}
+/* Free Class CSS */
+.freeClass {
+  padding-top: 138px;
+  font-family: "Lucida", serif;
+}
+.freeClassDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.freeClassCard {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  background-color: #9b315d;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.freePara {
+  font-size: 19px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+.freeClassCard img {
+  width: 100%;
+  overflow: hidden;
+}
+.readMore {
+  font-size: 18px;
+  margin-top: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+  margin-bottom: 15px;
+}
+.freeHead {
+  padding-left: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+/* metholody css starts */
+.methodImage img {
+  /* border: 1px solid black; */
+  padding: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* metholody css end */
+/*Therapy CSS */
+.therapy {
+  height: 40vh;
+  background-image: url("/Images/Therapyimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 139px;
+}
+.therapyHead {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Lucida Bright, serif;
+}
+.therapyText {
+  font-size: 38px;
+  font-weight: 500;
+}
+/*Footer Css */
+footer {
+  background-color: #9b315d;
+  color: #fff;
+}
+.footerDiv {
+  width: 100%;
+  padding-top: 84px;
+  padding-bottom: 1.5rem;
+}
+.footerText {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+h5 {
+  font-family: Lucida Bright, serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.footParts p {
+  margin-top: 1rem;
+  font-size: 18px;
+  max-width: 275px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+.copyright p {
+  font-size: 20px;
+  margin-top: 4rem;
+  text-align: center;
+}
+/*Responsive Section */
+@media screen and (max-width: 1399px) {
+  /*NavBar Responsive */
+  .navbar {
+    width: 80%;
+  }
+  .logo h1 {
+    font-size: 40px;
+  }
+  .logo img {
+    width: 65px;
+  }
+  /* Banner Responsive */
+  .bannerDiv {
+    padding-right: 2rem;
+  }
+  /* Philosophy Responsive || YogaBegin Responsive || Methodology Responsive */
+  .phyDiv,
+  .yogaBeginDiv,
+  .methodDiv {
+    padding: 0 2rem;
+  }
+  /*Register Responsive */
+  .regDiv {
+    padding: 0 3rem;
+  }
+  /* Free Class Responsive */
+  .freeClass {
+    padding: 0 1.5rem;
+  }
+  .freeClassCard {
+    width: 32%;
+  }
+  .regDiv {
+    padding-bottom: 75px;
+  }
+  /* yoga bigin */
+  .yogaBegin {
+    padding-top: 120px;
+  }
+
+  .yogaBeginDiv {
+    padding: 0 50px;
+  }
+
+  .yogaText {
+    max-width: 700px;
+  }
+
+  .yogaText h2 {
+    font-size: 50px;
+  }
+
+  .yogaText p {
+    font-size: 24px;
+    margin-top: 4rem;
+  }
+
+  .yogaText button {
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /*NavBar Responsive */
+  .navbar {
+    width: 90%;
+  }
+  .navLinks {
+    max-width: 100%;
+    width: 60%;
+  }
+  /*Banner Responsive */
+  .banner {
+    height: 100vh;
+  }
+  h2 {
+    font-size: 50px;
+  }
+
+  /* pholsofy */
+  .phyText p {
+    font-size: 16px;
+    width: 90%;
+  }
+  .phyText {
+    margin-left: 45px;
+  }
+
+  .phyImage img {
+    width: 80%;
+  }
+  .phyImage {
+    margin-left: 25px;
+  }
+
+  /* Features CSS */
+  .featureCard img {
+    width: 80%;
+    max-width: 100%;
+  }
+  .featureCard {
+    max-width: 100%;
+    width: 30%;
+    padding: 0 1rem;
+    padding-bottom: 25px;
+  }
+  .featureCard p {
+    font-size: 16px;
+    max-width: 100%;
+    text-align: center;
+  }
+  /* Slider Responsive */
+  .slideImage img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .slideImage {
+    width: 20%;
+  }
+  .slideText p {
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar {
+    width: 95%;
+  }
+  .navLinks {
+    width: 70%;
+  }
+  .navLinks ul li a {
+    font-size: 18px;
+    max-width: 400px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+  .logo img {
+    width: 30%;
+  }
+  .banner {
+    height: 90vh;
+    width: 1200px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  #p2 {
+    font-size: 24px;
+  }
+  #Bpara {
+    font-size: 14px;
+    width: 400px;
+  }
+  .bannerContent button {
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  /* Philosophy Responsive || YogaBegin || Methodology Responsive*/
+  .phyDiv,
+  .yogaBeginDiv,
+  .methodDiv {
+    flex-direction: column;
+  }
+  .phyImage,
+  .yogaImage,
+  .methodImage {
+    order: -1;
+  }
+  .phyImage img,
+  .yogaImage img,
+  .methodImage img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+  .phyText,
+  .yogaText,
+  .methodText {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+  /*Features Responsive */
+  .featureDiv {
+    align-items: center;
+  }
+  .featureCard {
+    width: 40%;
+    padding-bottom: 1rem;
+    margin-top: 1.7rem;
+  }
+  .featureCard img {
+    width: 70%;
+  }
+  .featureCard p {
+    font-size: 18px;
+  }
+  .featureCard button {
+    margin-top: 2rem;
+  }
+
+  /* yoga bigin */
+  .yogaBegin {
+    padding-top: 80px;
+  }
+
+  .yogaBeginDiv {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .yogaText {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .yogaText h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    width: 100%; 
+  }
+
+  .yogaText p {
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+
+  .yogaText button {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
+
+  .yogaImage img {
+    width: 80%;
+    margin-top: 20px;
+  }
+  /* Slider Responsive */
+  .slideLeft,
+  .slideRight {
+    width: 40px;
+    height: 40px;
+  }
+  .slideDiv {
+    max-width: 898px;
+  }
+  /* Register Responsive */
+  .regText h2 {
+    font-size: 40px;
+  }
+  #regp1 {
+    font-size: 35px;
+  }
+  #regp2 {
+    font-size: 28px;
+  }
+  /* therephy sesson */
+  .therapy {
+    height: 30vh; 
+    margin-top: 100px; 
+  }
+
+  .therapyHead {
+    font-size: 40px; 
+  }
+
+  .therapyText {
+    font-size: 30px; 
+  }
+  /* Footer Responsive */
+  .footerText {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footParts {
+    margin-top: 3rem;
+    width: 50%;
+  }
+  .footParts p {
+    max-width: 100%;
+  }
+  .socialMedia {
+    width: 60%;
+  }
+  /* xtar */
+  .methodology {
+    padding-top: 80px;
+  }
+
+  .methodDiv {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .methodText {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .methodText h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .methodText p {
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+
+  .methodText button {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 1.5rem;
+  }
+
+  .methodImage img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* banner and navbar */
+  .navbar {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .navLinks {
+    width: 100%;
+  }
+
+  .navLinks ul li a {
+    font-size: 16px;
+  }
+
+  .logo h1 {
+    font-size: 24px;
+  }
+
+  .logo img {
+    width: 25%;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .bannerDiv {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bannerContent {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  #p2 {
+    font-size: 20px;
+    color: white;
+  }
+
+  #Bpara {
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .bannerContent button {
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .phyText h2 {
+    font-size: 50px;
+    margin-left: 65px;
+  }
+  .phyText p {
+    font-size: 18px;
+  }
+  .phyText button {
+    margin-left: 35%;
+  }
+  /*Features Responsive */
+  .featureCard {
+    width: 60%;
+  }
+  /* Slider Responsive */
+  .slideImage {
+    width: 20%;
+  }
+  .slideText p {
+    font-size: 16px;
+    max-width: 160px;
+  }
+  /* Register Rsponsive */
+  .register {
+    padding: 0 1rem;
+  }
+  .regText h2 {
+    font-size: 25px;
+  }
+  #regp1 {
+    font-size: 20px;
+  }
+  #regp2 {
+    font-size: 21px;
+  }
+  .regText button {
+    width: 95px;
+    height: 40px;
+    font-size: 15px;
+  }
+  /* FREE CLASS RESPONSIVE */
+  .freeClassDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .freeClassCard {
+    width: 70%;
+    margin-top: 1rem;
+  }
+  /* metholdgy */
+  /* Therapy Responsive */
+  .therapyHead {
+    font-size: 40px;
+  }
+  .therapyText p {
+    font-size: 30px;
+  }
+  .therapy {
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 565px) {
+  .bannerDiv {
+    padding: 0 1rem 2rem 1rem;
+  }
+  .bannerContent h2 {
+    font-size: 30px;
+  }
+  #p2 {
+    font-size: 25px;
+  }
+  #Bpara {
+    font-size: 16px;
+  }
+  .bannerContent button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-left: 40%;
+    background-color: #ef77aa;
+    color: white;
+  }
+  /* Philosophy Responsive || YogaBegin Responsive || Method Responsive*/
+  .phyText button,
+  .yogaText button,
+  .methodText button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  .phyText h2,
+  .yogaText h2,
+  .methodText h2 {
+    font-size: 30px;
+    max-width: 100%;
+  }
+  .phyText p,
+  .yogaText p,
+  .methodText p {
+    font-size: 14px;
+  }
+  .phyText button {
+    margin-left: 30%;
+  }
+  .phyImage img {
+    width: 40%;
+  }
+  /*Features Responsive */
+  .featureCard {
+    width: 80%;
+  }
+  .featureCard h3 {
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .featureCard p {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .featureCard button {
+    width: 90px;
+    height: 40px;
+    border-radius: 16px;
+    font-size: 15px;
+  }
+  /* Slider Responsive */
+  .slideText p {
+    font-size: 11px;
+  }
+  .slideLeft,
+  .slideRight {
+    width: 25px;
+    height: 25px;
+    font-size: 11px;
+  }
+  /* Register Responsive */
+  .regDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .regImage {
+    order: -1;
+    width: 50%;
+  }
+  .regText {
+    margin-top: 10px;
+  }
+  .regText h2 {
+    font-size: 30px;
+  }
+  #regp1,
+  #regp2 {
+    margin-top: 6px;
+  }
+  .regText button {
+    margin-top: 15px;
+  }
+  /* Free Class Responsive */
+  .freeClassCard {
+    width: 90%;
+  }
+  .freePara {
+    font-size: 16px;
+  }
+  .freeHead {
+    font-size: 19px;
+  }
+  /* Therapy Responsive */
+  .therapy {
+    height: 20vh;
+    margin-top: 60px;
+  }
+  .therapyHead {
+    font-size: 25px;
+  }
+  .therapyText p {
+    font-size: 20px;
+  }
+  /* Footer Responsive */
+  .footerDiv {
+    padding-top: 60px;
+  }
+  .footerText {
+    flex-direction: column;
+    align-items: center;
+  }
+  h5 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .footParts {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .footParts p {
+    font-size: 16px;
+    max-width: 90%;
+    margin: 10px auto;
+  }
+  .socialMedia {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-left: 55px;
+  }
+  .copyright p {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    width: 95%;
+    padding: 5px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo img {
+    width: 20%;
+  }
+
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .navLinks {
+    width: 100%;
+  }
+
+  .navLinks ul {
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+  }
+
+  .navLinks ul li {
+    margin: 3px 0;
+  }
+
+  .navLinks ul li a {
+    font-size: 14px;
+  }
+
+  .banner {
+    padding: 10px;
+  }
+
+  .bannerDiv {
+    align-items: center;
+    justify-content: center;
+    margin-top: 35%;
+  }
+
+  .bannerContent {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #p2 {
+    font-size: 16px;
+  }
+
+  #Bpara {
+    font-size: 10px;
+    width: 95%;
+  }
+
+  .bannerContent button {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  /* /* phyilojofy */
+  .phyText button,
+  .yogaText button,
+  .methodText button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
+  .phyText h2,
+  .yogaText h2,
+  .methodText h2 {
+    font-size: 24px;
+    max-width: 100%;
+  }
+  .phyText p,
+  .yogaText p,
+  .methodText p {
+    font-size: 12px;
+  }
+  .phyText button {
+    margin-left: 15%;
+  }
+  .phyDiv,
+  .yogaBeginDiv,
+  .methodDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .phyImage img,
+  .methodImage img {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .phyText,
+  .yogaText,
+  .methodText {
+    width: 90%;
+  }
+  .phyText h2 {
+    width: 400px;
+    margin-left: -25px;
+  }
+
+  /* yoga bigin */
+  .yogaBegin {
+    padding-top: 60px;
+  }
+
+  .yogaBeginDiv {
+    padding: 0 10px;
+  }
+
+  .yogaText {
+    max-width: 95%;
+  }
+
+  .yogaText h2 {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+
+  .yogaText p {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+
+  .yogaText button {
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+
+  .yogaImage img {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .yogaImage::before {
+    left: 100px;
+  }
+
+  .slider {
+    margin-top: -60px;
+  }
+
+  /* footer */
+  .footerDiv {
+    padding-top: 40px;
+  }
+  .footerText {
+    flex-direction: column;
+    align-items: center;
+  }
+  h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .footParts {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footParts p {
+    font-size: 14px;
+    max-width: 95%;
+    margin: 5px auto;
+  }
+  .socialMedia {
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 28px;
+  }
+  .copyright p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
