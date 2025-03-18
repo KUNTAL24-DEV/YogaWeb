@@ -66,7 +66,7 @@ h1 span {
   max-width: 100%;
   width: 100%;
   height: 100vh;
-  background-image: url("/Images/Banner\ img.png");
+  background-image: url("../Images/Banner_img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ h2 span {
 .features {
   padding-top: 150px;
   padding-bottom: 100px;
-  background: #f9f9f9; /* হালকা ব্যাকগ্রাউন্ড */
+  background: #f9f9f9;
 }
 
 .featureDiv {
@@ -254,8 +254,8 @@ h2 span {
 .yogaImage::before {
   content: "";
   position: absolute;
-  top: 20px; /* উপরে কিছুটা জায়গা */
-  left: 180px; /* বাঁ দিকে কিছুটা জায়গা */
+  top: 20px;
+  left: 180px; 
   width: 60%;
   height: 75%;
   background: url("../Images/yogabigin\ bg.png") no-repeat center center/cover;
@@ -396,7 +396,7 @@ h2 span {
 /*Therapy CSS */
 .therapy {
   height: 40vh;
-  background-image: url("/Images/Therapyimage.png");
+  background-image: url("../Images/therapyimage.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
